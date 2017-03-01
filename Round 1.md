@@ -1,11 +1,11 @@
-# H1 Play for Malware Download via Email
-# H2 Detection
+# Play for Malware Download via Email
+## Detection
 Typical deection mechanisms incude:
 1. IDS picking up signature or heuristics on endpoint or across network
 1. IPS nuking comms back to CnC server or attempting to pull down payload
 1. Users calling having opened something and only realising after the fact that it's bad (usually after several attempts to make it go)
 
-# H2 Reaction
+## Reaction
 1. Quarantine machine (advanced IP null routing if available, locking it down to just security PC's accessible via, or pull the network cable.)
 1. Grab sample of bad and submit to sandbox (or get underling to run in sandbox and report results of execution / behavioural analysis / IOC list) 
 1. Find entry point and close it off:
